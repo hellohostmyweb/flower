@@ -1,0 +1,271 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    width: 100%;
+    height: 80px;
+    background-color: transparent;
+    box-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.1);
+}
+
+.nav-logo {
+    font-size: 25px;
+    margin-left: 30px;
+}
+
+.list-item {
+    list-style: none;
+    float: left;
+    text-align: center;
+    justify-content: center;
+    margin: 20px;
+
+}
+
+.icon {
+    list-style: none;
+    float: left;
+    text-align: center;
+    justify-content: center;
+    margin: 20px;
+
+
+
+
+}
+
+html,
+body {
+    position: relative;
+    height: 100%;
+}
+
+body {
+    background: #eee;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #000;
+    margin: 0;
+    padding: 0;
+}
+
+.swiper-container {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+
+
+
+.tcb-product-slider {
+  background: ;
+  background-image: url();
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 100px 0;
+}
+.tcb-product-slider .carousel-control {
+  width: 5%;
+}
+.tcb-product-item a {
+  color: ;
+}
+.tcb-product-item a:hover {
+  text-decoration: none;
+}
+.tcb-product-item .tcb-hline {
+  margin: 10px 0;
+  height: 1px;
+  background: #ccc;
+}
+@media all and (max-width: 768px) {
+  .tcb-product-item {
+    margin-bottom: 30px;
+  }
+}
+.tcb-product-photo {
+  text-align: center;
+  height: 180px;
+  background: #fff;
+}
+.tcb-product-photo img {
+  height: 100%;
+  display: inline-block;
+}
+.tcb-product-info {
+  background: #f0f0f0;
+  padding: 15px;
+}
+.tcb-product-title h4 {
+  margin-top: 0;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.tcb-product-rating {
+  color: #acacac;
+}
+.tcb-product-rating .active {
+  color: #FFB500;
+}
+.tcb-product-price {
+  color: firebrick;
+  font-size: 18px;
+}
+
+
+
+.details {
+    margin: 50px 0; }
+ .details h1 {
+      font-size: 32px;
+      text-align: center;
+      margin-bottom: 3px; }
+    .details .back-link {
+      text-align: center; }
+      .details .back-link a {
+        display: inline-block;
+        margin: 20px 0;
+        padding: 15px 30px;
+        background: ;
+        color:;
+        border-radius: 24px; }
+        .details .back-link a svg {
+          margin-right: 10px;
+          vertical-align: text-top;
+          display: inline-block; }
+.footer {
+     background: url(../images/footer-bg.jpg);
+     padding-bottom: 35px;
+     background-size: 100% 100%;
+background-repeat: no-repeat;
+background-position: center center;
+    background-color: black;
+}
+ 
+ .footer .Follow {
+    margin-bottom: 27px;
+}
+
+
+ .footer .Follow h3 {
+     color: #fff;
+     font-size: 25px;
+     line-height: 30px;
+     font-weight: 600;
+border-bottom: #fff solid 1px;
+    border-bottom-width: 1px;
+border-width: 1px;
+display: inline-block;
+padding-bottom: 2px;}
+ .coa {
+    color: #12dc12;
+}
+ 
+ 
+ .footer .Newsletter  {
+
+    padding: 13px 26px;
+        padding-top: 10px;
+        padding-right: 26px;
+        padding-bottom: 10px;
+        padding-left: 26px;
+    border: #fff solid 1px;
+    width: 77%;
+
+
+ }
+
+.footer .Subscribe {
+
+    padding: 10px 46px;
+margin-left: -3px;
+border: #0e0c0c solid 1px;
+background: #0e0c0c;
+color: #fff;
+
+}
+ .pdn-top-30 {
+    padding-top: 35px;
+}
+ ul.location_icon {
+     list-style: none;
+     margin: 0;
+     padding: 0;
+     width: 100%;
+     float: left;
+}
+ ul.location_icon li {
+     float: left;
+     height: 70px;
+     color: #fff;
+     display: flex;
+     flex-wrap: wrap;
+     align-items: center;
+     padding-right: 20px;
+}
+
+ul.location_icon li:last-child { padding-right: 0px; }
+ 
+ul.location_icon li a{
+ margin-bottom: 23px;}
+ 
+ ul.location_icon span {
+    font-size: 17px;
+     font-weight: 400;
+}
+ 
+ 
+/*--------------------------------------------------------------------- inner_page css ---------------------------------------------------------------------*/
+ 
+ 
+/** slider arrow **/
+.location_icon li a{
+    
+    font-size: 20px;
+    color: wheat;
+}
+
+@media only screen and (max-width:600px){
+    .para{
+        text-align: center;
+        justify-content: center;
+        margin-left: 120px;
+        width: 100%;
+    }
+    #buy{
+     
+        margin-left: 120px;
+        
+    }
+    .footer{
+    width: 100%; 
+        text-align: center
+    }
+    .follow{
+        width: 100%;
+    }
+}
